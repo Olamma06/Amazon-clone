@@ -5,55 +5,219 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon website</title>
-    <link rel="stylesheet" type="text/css" href="/icons/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="icons/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="Amazon.css">
 </head>
 <body>
     <div class="mainDiv">
         <div class="topNav">
             <div class="nav_logo">
-                <a> <img src="Amazon_Logo_Black_bg.jpg" height="50px" width="150px"/> </a>
+                <a> <img src="Images/Amazon_Logo_Black_bg.jpg" height="50px" width="150px"/> </a>
                 <div class="delocation">
                     <a>
                         <span class="deddy"> Deliver to </span> <br>
                         <i class="bi-geo-alt icons"></i>
-                        <span> Nigeria </span>
+                        <span class="deddy2"> Nigeria </span>
                     </a>
                 </div>
                 <div class="nav_fill">
                     <div class="nav_search">
-                        <form class="search_form" method="POST" action="site-search">
-                            <div class="nav_left_div">
-                                <div class="nav_left">
-                                    <span class="nav_search_lb">All Department</span>
-                                    <i class="bi-caret-down-fill"></i>
-                                </div>
-                                <div>
-                                    vbcvcb
-                                </div>
-                                <div class="nav_right">
-                                    <i class="bi-search"></i>
-
-                                </div>
+                        <form class="search_form" method="GET" action="site-search">
+                            
+                            
+                            <select class="search_dropdown">
+                                <option  selected="selected" value="All"> All</option>
+                                <option value="All-D"> All Department</option>
+                                <option value="Toy"> Toys & Games</option>
+                                <option value="Computer"> Computer</option>
+                                <option value="Art"> Arts & Craft</option>
+                                <option value="Automobile"> Automobile</option>
+                                <option value="Baby"> Baby</option>
+                                <option value="Skincare"> Beauty & Personal care</option>
+                                <option value="G-Fashion"> Girl's Fashion</option>
+                                <option value="B-Fashion"> Boy's Fashion</option>
+                                <option value="Deal"> Deals</option>
+                                <option value="Music"> Digital & Music</option>
+                                <option value="Science"> Industrial & Scientific</option>
+                            </select>
+                                
+                            
+                            <div class="nav-middle">
                                 
                             </div>
+                            <div class="nav_right">
+                                <i class="bi-search" search></i>
 
+                            </div>
+                        
                         </form>
                     </div>
 
                 </div>
-                
+                <div class="US img">
+                   <a><img src="Images/US flag.png" height="35px"></a> 
+                </div>
+                <div class="sign_in">
+                    <a>
+                        <span class="sign"> Hello,sign in </span> <br>
+                        <span> Account and List </span>
+                    </a>
+                </div>
+                <div class="Orders">
+                    <a>
+                        <span class="order_1"> Returns </span> <br>
+                        <span> & Orders </span>
+                    </a>
+                </div>
+                <div class="nav_sprite">
+                    
+                </div>
             </div>
             <div class="nav_blue" >
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+                <li class="bi-list list"></li>
                 <ul>
                     <li><a href=""> All </a></li>
                     <li><a href=""> Today's Deals </a></li>
-                    <li><a href="">Customer service</a></li>
+                    <li><a href=""> Customer service</a></li>
                     <li><a href=""> Registry</a> </li>
                     <li><a href=""> Gift Cards </a></li>
                     <li><a href=""> Sell </a></li>
                 </ul>
+            </div>
+        </div>
+        <div class="nav_list">
+            <a>
+                <ul>
+                    <li class="game"> Toys & Games</li>
+                    <li> Holiday Toy List</li>
+                    <li> Shop Toys by Age</li>
+                    <li> Shop Toys by Character</li>
+                    <li> Shop Best Selling Toys</li>
+                    <li> Shop Newly Released Toys</li>
+                    <li> Shop Amazon Executive Toys</li>
+                    <li> Shop Toys Deals</li>
+                </ul>
+            </a>
+        </div>
+        <div class="Content_images">
+            <div class="content_div1">
+                <div>
+                    <a><img src="Images/Headset.jpg" height="100px" width="200px" ></a><br>
+                    <a><span>Headset</span></a>
+                </div>
+                <div>
+                    <a><img src="Images/Keyboard.jpg" height="100px" width="200px" ></a><br>
+                    <a><span>Keyboard</span></a>  
+                </div>
+                <div class="mouse_img">
+                    <a><img src="Images/Mouse.jpg" height="100px" width="200px" ></a><br>
+                    <a><span>Computer mice</span></a>  
+                </div>
+                <div>
+                    <a><img src="Images/Chair.jpg" height="100px" width="200px" ></a><br>
+                    <a><span>Keyboard</span></a>  
+                </div>
+            </div>
+            <div class="content_div2">
+                <div>
+                    <a><img src="Images/Headset.jpg" height="100px" width="200px" ></a><br>
+                    <a><span>Computer </span></a>
+                </div>
+                <div>
+                    <a><img src="Images/Keyboard.jpg" height="100px" width="200px" ></a><br>
+                    <a><span>Video Games</span></a>  
+                </div>
+                <div class="mouse_img">
+                    <a><img src="Images/Mouse.jpg" height="100px" width="200px" ></a><br>
+                    <a><span>Baby</span></a>  
+                </div>
+                <div>
+                    <a><img src="Images/Toys.jpg" height="100px" width="200px" ></a><br>
+                    <a><span>Toys & Games</span></a>  
+                </div>
+            </div>
+        </div>
+        <div class="content_div3">
+            <div>
+                <a><img src="Images/Closet_set.jpg" height="100px" width="200px" ></a><br>
+                <a><span>Computer </span></a>
+            </div>
+        </div>
+        <div class="Back_2_top">
+            <a><span>Back to top</span></a>
+        </div>
+        <div class="info">
+            <div class="info_know">
+                    
+                <span>Get to know us</span>
+                <a>
+                    <ul>
+                        <li>Career</li>
+                        <li>Blog</li>
+                        <li>About Amazon</li>
+                        <li>Investor Relations</li>
+                        <li>Amazon Devices</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </a>
+                </span>
+            </div>
+            <div class="info_money">
+                
+                <span>Make money with us</span>
+                <a>
+                    <ul>
+                        <li>Sell products on Amazon</li>
+                        <li>Sell on Amazon Business</li>
+                        <li>Sell apps Amazon</li>
+                        <li>Become an Affiliate</li>
+                        <li>Advertise your products</li>
+                        <li>Self-Publish with us</li>
+                        <li>Host an Amazon Hub</li>
+                        <li>See More Make Money with Us</li>
+                    </ul>
+                </a>
+                
+            </div>
+            <div class="info_pay">
+                <span>Amazon Payment Products</span>
+                <a>
+                    <ul>
+                        <li>Amazon Business Cards</li>
+                        <li>Shop With Points</li>
+                        <li>Reload Your Balance</li>
+                        <li>Amazon Currency Converter</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="info_help">
+                <span>Let Us Help You</span>
+                <a>
+                    <ul>
+                        <li>Amazon and COVID-19</li>
+                        <li>Your Account</li>
+                        <li>Your Orders</li>
+                        <li>Shipping Rates and Policies</li>
+                        <li>Return and Replacements</li>
+                        <li>Manage Your Content and Devices</li>
+                        <li>Amazon Assistant</li>
+                        <li>Help</li>
+                    </ul>
+                </a>
+            </div>
+
+
+        </div>
+        <div class="footer_div">
+            <div class="footer_logo">
+                <a> <img src="Images/Amazon_Logo_Black_bg.jpg" height="35px" width="130px"/></a>
+            </div>
+            <div class="global">
+                <i class="bi-globe2"></i> 
+                <a>
+                    <span>English</span>
+                </a>
             </div>
         </div>
     </div>
